@@ -98,7 +98,9 @@ a:active {
 
 .divider {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
   .divider .map, .divider .texts {
     width: 300px;
     margin: 20px;
