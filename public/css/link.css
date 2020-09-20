@@ -108,6 +108,7 @@ a:active {
       margin: 20px;
       border: solid 5px white;
       backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       cursor: pointer;
       text-align: center; }
       #link .text-block .link-block:hover {

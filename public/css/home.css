@@ -102,6 +102,7 @@ a:active {
   width: 100vw;
   height: 100vh;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: white;
   display: flex;
   flex-direction: column;
@@ -118,7 +119,8 @@ a:active {
     padding: 50px;
     font-family: 'raleway_thin-webfont'; }
   .title-block:hover {
-    backdrop-filter: blur(0px); }
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px); }
     .title-block:hover h1 {
       padding: 50px 500px;
       border-top: solid 50vh white;

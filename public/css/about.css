@@ -101,11 +101,12 @@ a:active {
   #about .text-block {
     background-color: rgba(255, 255, 255, 0);
     color: white;
-    width: 50%;
+    max-width: 1000px;
     min-width: 300px; }
     #about .text-block h5 {
       font-weight: 200;
       letter-spacing: 2px;
       background-color: rgba(255, 255, 255, 0);
       backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
       border: solid 5px white; }
